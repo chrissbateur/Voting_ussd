@@ -69,7 +69,7 @@ app.post('/ussd', (req, res) => {
     // Determine next action based on user input
     if (userInput.length === 1 && userInput[0] === '') {
         // First level menu: Language selection
-        response = `CON Welcome to the County President Voting System\n Hitamo ururimi.`;
+        response = `CON Welcome to the County President Voting System\n Hitamo ururimi.\n`;
         response += `1. English\n`;
         response += `2. Kinyarwanda`;
     } else if (userInput.length === 1 && userInput[0] !== '') {
