@@ -48,8 +48,8 @@ let votes = {
     "MATADOL. ": 0,
     "CHRISTIAN. ": 0,
     "MFITUS. ": 0,
-    "ADMIN. ": 0,
-    "BATEUR. ": 0
+    "BATEUR. ": 0,
+    "ADMIN. ": 0
 };
 
 // In-memory storage for user data (for simplicity)
